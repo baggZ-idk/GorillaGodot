@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ctokf762kerps"]
+
+[resource]
+albedo_color = Color(0.33660764, 0.3366076, 0.3366076, 1)
+metallic_specular = 0.0
+texture_filter = 0
+disable_receive_shadows = true
+proximity_fade_distance = 0.01

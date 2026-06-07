@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c11kv3rixb7tu"]
+
+[ext_resource type="Texture2D" uid="uid://ceap1kcgd7pm3" path="res://Textures/player.png" id="1_yvvsj"]
+
+[resource]
+albedo_texture = ExtResource("1_yvvsj")
+texture_filter = 0
+disable_receive_shadows = true
+proximity_fade_distance = 0.01

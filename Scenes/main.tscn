@@ -1,7 +1,6 @@
 [gd_scene format=4 uid="uid://kgs6a41jieqo"]
 
 [ext_resource type="Script" uid="uid://bpy2l5feoq2q1" path="res://Scripts/XR_Init.gd" id="1_fbwps"]
-[ext_resource type="Script" uid="uid://bqb3cy0ekk685" path="res://addons/godot-xr-tools/objects/climbable.gd" id="3_6bp64"]
 [ext_resource type="Material" uid="uid://ctokf762kerps" path="res://Materials/Map.tres" id="3_8gbba"]
 [ext_resource type="Material" uid="uid://bihhdu5sjcg3r" path="res://Materials/climbable.tres" id="4_344ge"]
 [ext_resource type="PackedScene" uid="uid://bkht4dgldahe" path="res://Scenes/player_container.tscn" id="4_gg425"]
@@ -96,7 +95,6 @@ script = ExtResource("1_fbwps")
 
 [node name="player_container" parent="." unique_id=450276762 instance=ExtResource("4_gg425")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -0.74610806, -0.03407657, 0.65180206)
-turn_mode = 1
 
 [node name="Environment" type="Node" parent="." unique_id=1409120995]
 
@@ -116,21 +114,16 @@ environment = SubResource("Environment_10n85")
 [node name="Map" type="Node3D" parent="Environment/Map" unique_id=1342938525]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -2.0615683, 1.3681304, 3.8669238)
 
-[node name="XRToolsClimbable" type="Node3D" parent="Environment/Map/Map" unique_id=807365947]
-transform = Transform3D(100, 0, 0, 0, -1.1920928e-05, 99.99999, 0, -99.99999, -1.1920928e-05, 0.945109, 0.036893785, -0.008214235)
-script = ExtResource("3_6bp64")
-metadata/_custom_type_script = "uid://bqb3cy0ekk685"
-
-[node name="Climbable" type="MeshInstance3D" parent="Environment/Map/Map/XRToolsClimbable" unique_id=878684617]
-transform = Transform3D(1.0000002, 0, 0, 0, 1.0000002, -1.4210855e-14, 0, 1.4210855e-14, 1.0000002, 0, 0, 0)
+[node name="Climbable" type="MeshInstance3D" parent="Environment/Map/Map" unique_id=878684617]
+transform = Transform3D(100.00002, 0, 0, 0, -1.1920929e-05, 100.000015, 0, -100.000015, -1.1920929e-05, 0.945109, 0.036893785, -0.008214235)
 material_override = ExtResource("4_344ge")
 mesh = SubResource("ArrayMesh_yccp2")
 skeleton = NodePath("")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Environment/Map/Map/XRToolsClimbable/Climbable" unique_id=611465179]
+[node name="StaticBody3D" type="StaticBody3D" parent="Environment/Map/Map/Climbable" unique_id=611465179]
 transform = Transform3D(1, 0, 0, 0, 1.0000001, 2.1316282e-14, 0, -2.1316282e-14, 1.0000001, 0, 0, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Environment/Map/Map/XRToolsClimbable/Climbable/StaticBody3D" unique_id=424434571]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Environment/Map/Map/Climbable/StaticBody3D" unique_id=424434571]
 transform = Transform3D(1.0000001, 0, 0, 0, 1.0000001, -1.4210855e-14, 0, 1.4210855e-14, 1.0000001, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_d1ilt")
 

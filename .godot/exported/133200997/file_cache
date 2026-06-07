@@ -1,6 +1,6 @@
-res://Scenes/main.tscn::a51b8dbf29821dbcb8f3d76eb8ee10d9::1780778830::res://.godot/exported/133200997/export-2ddd04d543d5858e7f20c9299a8b5096-main.scn
-res://Scenes/player_container.tscn::37bdce0552373575164a683ac5399408::1780777231::res://.godot/exported/133200997/export-d83ae3c57908ff53ab9528dcd3f7a4d2-player_container.scn
-res://openxr_action_map.tres::834fb5b1dafc7193fd43545653d255dd::1780777774::res://.godot/exported/133200997/export-a9d757fdde490682a87dc1ad8c7d3357-openxr_action_map.res
+res://Scenes/main.tscn::e3befa112e4c4e931773cfa884d809f3::1780854530::res://.godot/exported/133200997/export-2ddd04d543d5858e7f20c9299a8b5096-main.scn
+res://Scenes/player_container.tscn::fafb01ef5766b1e7e1cc220cb51ac79c::1780854853::res://.godot/exported/133200997/export-d83ae3c57908ff53ab9528dcd3f7a4d2-player_container.scn
+res://openxr_action_map.tres::834fb5b1dafc7193fd43545653d255dd::1780854052::res://.godot/exported/133200997/export-a9d757fdde490682a87dc1ad8c7d3357-openxr_action_map.res
 res://addons/godot-xr-tools/audio/area_audio.tscn::26c3a6259aab39f093ba95b39df6864e::1780612710::res://.godot/exported/133200997/export-5cd45c730cf997435777b25d105911a8-area_audio.scn
 res://addons/godot-xr-tools/audio/pickable_audio.tscn::21efb0d23d6a0ee8887cf4c21b30ae25::1780612710::res://.godot/exported/133200997/export-c8b9b2ff6bc2d1ecbd0a3af51cebf414-pickable_audio.scn
 res://addons/godot-xr-tools/audio/surface_audio.tscn::c3f76293e019f20fe3b92f03f717e915::1780612710::res://.godot/exported/133200997/export-36d4a11bc5808dfbfd2d908643d5af0b-surface_audio.scn
@@ -130,4 +130,4 @@ res://addons/godot-xr-tools/user_settings/user_settings_ui.tscn::f897380b819c851
 res://addons/godot-xr-tools/xr/start_xr.tscn::6a4820bc73c62a3af8f76eb7919bd4e1::1780612711::res://.godot/exported/133200997/export-7fd0d6b3a962be10043f7b02735e295c-start_xr.scn
 res://Materials/Map.tres::f19090739f228dad8faff69683162615::1780761406::res://.godot/exported/133200997/export-3521cac4dd8ca511fc06d4ed14c419a1-Map.res
 res://Materials/Player.tres::07b921ce1a3b5152066c9014a65b6449::1780761406::res://.godot/exported/133200997/export-3ff1992afa41613bc9995e1cfef5c952-Player.res
-res://Materials/climbable.tres::826f89b4422be2b2b128536a032187f0::1780777870::res://.godot/exported/133200997/export-03605db8c7f1f5e884934882b18d2428-climbable.res
+res://Materials/climbable.tres::826f89b4422be2b2b128536a032187f0::1780797003::res://.godot/exported/133200997/export-03605db8c7f1f5e884934882b18d2428-climbable.res

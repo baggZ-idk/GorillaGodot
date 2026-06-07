@@ -1,3 +1,5 @@
-res://openxr_action_map.tres
 res://Scenes/main.tscn
+res://openxr_action_map.tres
+res://Scripts/Player.gd
 res://Scenes/player_container.tscn
+res://Scripts/Rigging/FingerBoneController.gd
